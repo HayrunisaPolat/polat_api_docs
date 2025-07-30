@@ -25,7 +25,7 @@ jobs:
       - name: Build API Docs
         working-directory: api-docs
         run: |
-          npm ci
+          npm install
           npm run build-docs      
 
       - name: Copy Docs into Project
